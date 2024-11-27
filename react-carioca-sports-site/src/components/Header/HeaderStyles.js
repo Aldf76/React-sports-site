@@ -1,74 +1,55 @@
-// src/components/Header/HeaderStyles.js
-
 const headerStyles = {
-    appBar: {
-    background: "#333333",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "flex-end",
-      height: "109.6px",
-      paddingBottom: "5px",
-      borderBottom: "1px solid #ccc",
-      
-      
-    },
-
-    toolbar: {
-
-      position: "relative",
-      display: "flex",
-      justifyContent: "space-between",
-      width: "100%",
-      alignItems: "center",
-      height: "107.6px",
-      
-    },
-
-    logo: {
-        
+  appBar: {
+    backgroundColor: "#8B0000", // Vinho escuro para representar elegância e sofisticação.
+    boxShadow: "none", // Remove sombra para um design mais clean.
+    padding: "8px 16px",
+  },
+  toolbar: {
     display: "flex",
-    alignItems: "center", // Centraliza verticalmente
-    justifyContent: "center", // Centraliza horizontalmente
-    height: "100%", // Garante que ocupe a altura total do AppBar
+    justifyContent: "space-between",
+    alignItems: "center",
+    height: "107.6px", // Altura consistente com o design esperado.
+  },
+  logo: {
+    display: "flex",
+    alignItems: "center",
+    img: {
+      height: "60px", // Mantém o tamanho do logo consistente.
+    },
+  },
+  contacts: {
+    display: "flex",
+    alignItems: "center",
+    gap: "16px", // Espaçamento entre os ícones e o texto.
+  },
+  contactIcon: {
+    color: "#FFD700", // Ícones dourados para contraste elegante.
+    "&:hover": {
+      color: "#FFFFFF", // Branco no hover para chamar atenção.
+    },
+  },
+  contactText: {
+    color: "#FFFFFF", // Texto branco para boa legibilidade.
+    fontSize: "14px",
+  },
+  nav: {
+    display: "flex",
+    alignItems: "center",
+    gap: "20px", // Espaçamento entre os itens do menu.
+  },
+  navItem: {
+    color: "#FFFFFF", // Branco para legibilidade sobre fundo escuro.
+    fontWeight: "600",
+    fontSize: "14px",
+    textTransform: "uppercase",
+    "&:hover": {
+      color: "#FFD700", // Destaca com dourado ao passar o mouse.
+    },
+    "&.active": {
+      color: "#FFD700", // Cor especial para o item ativo.
+      borderBottom: "2px solid #FFD700", // Linha indicativa do item ativo.
+    },
+  },
+};
 
-      img: {
-        height: "60px",
-        padding: "0 30px",
-      },
-    },
-
-    contacts: {
-      position: "absolute",
-      top: "10px",
-      right: "10px",
-      display: "flex",
-      gap: "10px",
-      a: {
-        color: "#333",
-        textDecoration: "none",
-      },
-      i: {
-        fontSize: "1.2em",
-      },
-    },
-    nav: {
-      display: "flex",
-      gap: "15px",
-      alignSelf: "flex-end",
-      marginLeft: "auto",
-      marginBottom: "10px",
-    },
-    navItem: {
-      color: "#333",
-      textDecoration: "none",
-      fontWeight: "bold",
-      color: '#edeef1',
-      fontSize: "14px",
-      "&.active": {
-        color: "red",
-      },
-    },
-  };
-  
-  export default headerStyles;
-  
+export default headerStyles;

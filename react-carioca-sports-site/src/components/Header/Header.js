@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Box, Typography, IconButton, Button, Link } from "@mui/material";
-import { Instagram, Facebook } from "@mui/icons-material";
+import { Instagram, Facebook, X } from "@mui/icons-material";
 import "./Header.css";
 import "./HeaderStyles.js";
 import logo from "../../assets/logo.webp";
@@ -19,6 +19,14 @@ const Header = () => {
 
         {/* Contatos e redes sociais */}
         <Box className="contacts" sx={headerStyles.contacts}>
+        <IconButton
+            href="https://x.com/?logout=1732735241531"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
+            <X/>
+          </IconButton>
           <IconButton
             href="https://instagram.com"
             target="_blank"
