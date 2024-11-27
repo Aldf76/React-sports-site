@@ -1,7 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Box, Typography, IconButton, Button, Link } from "@mui/material";
 import { Instagram, Facebook, X } from "@mui/icons-material";
-import "./Header.css";
 import "./HeaderStyles.js";
 import logo from "../../assets/logo.webp";
 import headerStyles from "./HeaderStyles.js";
