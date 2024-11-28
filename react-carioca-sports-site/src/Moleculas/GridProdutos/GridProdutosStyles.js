@@ -3,11 +3,12 @@ const GridProdutosStyle = {
     container: {
       flexGrow: 1,
       padding: 3,
-      backgroundColor: "#f5f5f5", // Fundo suave
+      backgroundColor: "#f5f5f5",
+      marginBottom: 5,
     },
     gridItem: {
       display: "flex",
-      justifyContent: "center", // Centraliza os cards dentro do grid
+      justifyContent: "center", // Centraliza os cards 
       alignItems: "center",
     },
     loaderContainer: {
