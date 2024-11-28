@@ -24,11 +24,11 @@ function App() {
     <>
       <Header />
       <CarouselContainer />
-      <Main />
-      <Grid/>
       <ThemeProvider theme={theme}>
       <InformationBanner />
     </ThemeProvider>
+      <Main />
+      <Grid/>
       <Footer />
     </>
   );

@@ -1,8 +1,12 @@
+import { margin } from "@mui/system";
+
 const headerStyles = {
   appBar: {
+    position: 'sticky',
     backgroundColor: "#8B0000", // Vinho escuro para representar elegância e sofisticação.
     boxShadow: "none", // Remove sombra para um design mais clean.
     padding: "8px 16px",
+    zIndex: 2,
   },
   toolbar: {
     display: "flex",

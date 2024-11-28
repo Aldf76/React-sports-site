@@ -1,14 +1,15 @@
 import React from "react";
-import "./CarouselContainer.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel as ResponsiveCarousel } from "react-responsive-carousel";
-import Imagem from "../../assets/camisa-de-time.jpg";
-import Imagem2 from "../../assets/camisa-de-time2.jpg";
-import Imagem3 from "../../assets/camisa-de-time3.jfif";
+import styles from "./CarouselContainerStyles"; // Importamos o estilo
+import Imagem from "../../assets/camisa-de-time.jpg.jpg";
+import Imagem2 from "../../assets/camisa-de-time2.jpg.jpg";
+import Imagem3 from "../../assets/camisa-de-time3.jpg.jpg";
+import Box from "@mui/material/Box";
 
 const CarouselContainer = () => {
   return (
-    <div className="box_banner">
+    <Box sx={styles.boxBanner}>
       <ResponsiveCarousel
         infiniteLoop={true}
         autoPlay={true}
@@ -17,17 +18,17 @@ const CarouselContainer = () => {
         showThumbs={false}
         interval={5000}
       >
-        <div>
-          <img src={Imagem} alt="Slide 1" />
-        </div>
-        <div>
-          <img src={Imagem2} alt="Slide 2" />
-        </div>
-        <div>
-          <img src={Imagem3} alt="Slide 3" />
-        </div>
+        <Box>
+          <img src={Imagem} alt="Slide 1" style={styles.bannerImage} />
+        </Box>
+        <Box>
+          <img src={Imagem2} alt="Slide 2" style={styles.bannerImage} />
+        </Box>
+        <Box>
+          <img src={Imagem3} alt="Slide 3" style={styles.bannerImage} />
+        </Box>
       </ResponsiveCarousel>
-    </div>
+    </Box>
   );
 };
 
