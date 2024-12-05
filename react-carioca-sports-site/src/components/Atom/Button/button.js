@@ -1,6 +1,6 @@
 import React from "react";
 import { Button as MuiButton } from "@mui/material";
-
+// botão simples
 const Button = ({ text, ...props }) => {
   return (
     <MuiButton

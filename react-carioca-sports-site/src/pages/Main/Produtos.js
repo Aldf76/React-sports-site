@@ -1,3 +1,4 @@
+// página de array para manter o código mais limpo
 const produtos = [
     {
       titulo: "Lorem Ipsum Dolor 1",

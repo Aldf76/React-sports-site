@@ -36,11 +36,11 @@ const GridProdutos = () => {
       <Typography variant="h5" sx={GridProdutosStyle.title}>
         Veja o que falam da nossa loja
       </Typography>
-      <Grid container spacing={3} justifyContent="center">
-        {mockCards.map((card) => (
-          <Grid item xs={12} sm={6} md={4} key={card.id}>
+      <Grid container spacing={3} justifyContent="center"> {/*Aqui começa o card em si  */}
+        {mockCards.map((card) => ( // mapa iterando
+          <Grid item xs={12} sm={6} md={4} key={card.id}>  {/*Separação do espaço*/}
             <Card sx={GridProdutosStyle.card}>
-              <CardContent>
+              <CardContent> {/*Informações contidas dentro */}
                 <Typography variant="body1" sx={GridProdutosStyle.description}>
                   &ldquo;{card.description}&rdquo;
                 </Typography>

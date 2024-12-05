@@ -8,7 +8,6 @@ import Grid from "./Components/Moleculas/GridProdutos/GridProdutos.js";
 import Footer from "./Components/organism/Footer/Footer.js";
 import InformationBanner from "./Components/Moleculas/InformationB/InformationBanner.js";
 import InformationBannerStyle from "./Components/Moleculas/InformationB/InformationBannerStyles.js";
-import Divisor from "./Components/Atom/Divisor/Divisor.js"
 import NewsLetterForm from "./Components/organism/newsLetterForm/newsLetterForm.js";
 import Saudacao from './Components/Moleculas/Saudacao/Saudacao.js';
 

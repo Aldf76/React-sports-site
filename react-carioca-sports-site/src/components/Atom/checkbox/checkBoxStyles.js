@@ -1,8 +1,8 @@
 // checkBoxStyles.js
 const checkBoxStyles = {
   check: {
-      color: "#FFFFFF",
-      "&.Mui-checked": {
+      color: "#FFFFFF", // branco !
+      "&.Mui-checked": { // mudança de cor
           color: "#00C2C5",
       },
   },

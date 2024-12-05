@@ -16,7 +16,7 @@ const SaudacaoStyles = {
     },
     chamada: {
       fontSize: "16px",
-      color: "#red", // cor para odestaque
+      color: "#EB5E55", // cor para odestaque
       fontWeight: "bold",
     },
   };

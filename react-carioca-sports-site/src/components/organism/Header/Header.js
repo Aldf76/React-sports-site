@@ -1,79 +1,3 @@
-/*
-
-import React from "react";
-import { AppBar, Toolbar, Box, Typography, IconButton, Button} from "@mui/material";
-import { Instagram, Facebook, X } from "@mui/icons-material";
-import "./HeaderStyles.js";
-import NavItem from "../../Atom/NavItem/navItem.js";
-import logo from "../../assets/logo.webp";
-import headerStyles from "./HeaderStyles.js";
-
-
-
-
-const Header = () => {
-  return (
-    <AppBar className="header" sx={headerStyles.appBar}>
-      <Toolbar className="header-top" sx={headerStyles.toolbar}>
-        <Box className="logo" sx={headerStyles.logo}>
-          <img src={logo} alt="Carioca Logo"  />
-        </Box>
-
-       
-        <Box className="contacts" sx={headerStyles.contacts}>
-        <IconButton
-            href="https://x.com/?logout=1732735241531"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-instagram"></i>
-            <X/>
-          </IconButton>
-          <IconButton
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-instagram"></i>
-            <Instagram/>
-          </IconButton>
-          <IconButton
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-facebook"></i>
-            <Facebook/>
-          </IconButton>
-          <Typography variant="body2">21.9 9995-6202 </Typography>
-          <Typography variant="body2">21.9 9995-3526</Typography>
-        </Box>
-       
-        <Box className="nav" sx={headerStyles.nav}>
-        <NavItem href="#produtos" className="nav-item" sx={headerStyles.navItem}>
-            Simulador
-          </NavItem>
-          <NavItem href="#produtos" className="nav-item" sx={headerStyles.navItem}>
-            Nossos Produtos
-          </NavItem>
-          <NavItem href="#passo-a-passo" className="nav-item" sx={headerStyles.navItem}>
-            Passo a Passo
-          </NavItem>
-          <NavItem href="#portfolio" className="nav-item" sx={headerStyles.navItem}>
-            Portfólio
-          </NavItem>
-          <NavItem href="#contato" className="nav-item" sx={headerStyles.navItem}>
-            Contato
-          </NavItem>
-        </Box>
-      </Toolbar>
-
-    </AppBar>
-  );
-};
-
-export default Header;
-*/
 import React from "react";
 import {
   AppBar,
@@ -88,6 +12,7 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import MarkUnreadChatAltIcon from '@mui/icons-material/MarkUnreadChatAlt';
 import logo from "../../../assets/logo.webp"; // Substitua com seu logo real.
 import headerStyles from "./HeaderStyles";
 
@@ -132,9 +57,15 @@ const Header = () => {
           >
             Entrar
           </Button>
+
+          <IconButton sx={{ color: "#fff" }}>
+            <MarkUnreadChatAltIcon/>
+          </IconButton>
+
           <IconButton sx={{ color: "#fff" }}>
             <ShoppingCartIcon />
           </IconButton>
+
         </Box>
       </Toolbar>
 
