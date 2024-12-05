@@ -7,9 +7,8 @@ const newsletterFormStyles = {
       gap: "16px",
       padding: "24px",
       backgroundColor: "#333333",
-      borderRadius: "8px",
       width: "100%",
-      maxWidth: "600px", // Limita largura máxima
+      maxWidth: "96.8%", // Limita largura máxima
       margin: "0 auto", // Centraliza no eixo horizontal
     },
     title: {

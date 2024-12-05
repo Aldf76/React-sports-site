@@ -29,7 +29,7 @@ function App() {
       <ThemeProvider theme={theme}>
       <InformationBanner />
     </ThemeProvider>
-     <Divisor />  {/* Divisor entre o banner e os produtos */}
+ {/* Divisor entre o banner e os produtos */}
       <Main />
       <Grid/>
       <NewsLetterForm />

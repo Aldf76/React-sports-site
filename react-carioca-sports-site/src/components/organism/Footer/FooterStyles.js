@@ -4,7 +4,7 @@ const FooterStyles = {
       //background-color: #333;
       color: "#fff",
       padding: "32px 0",
-      marginTop: "40px",
+      marginTop: "0px",
     },
     footerContainer: {
       maxWidth: "100%",
