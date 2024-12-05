@@ -3,7 +3,7 @@ export const GridProdutosStyle = {
     flexGrow: 1,
     padding: 3,
     backgroundColor: "#ffffff",
-    marginBottom: 5,
+    marginBottom: 0,
     textAlign: "center",
   },
   title: {
