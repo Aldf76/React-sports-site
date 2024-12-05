@@ -10,6 +10,7 @@ import InformationBanner from "./Components/Moleculas/InformationB/InformationBa
 import InformationBannerStyle from "./Components/Moleculas/InformationB/InformationBannerStyles.js";
 import Divisor from "./Components/Atom/Divisor/Divisor.js"
 import NewsLetterForm from "./Components/organism/newsLetterForm/newsLetterForm.js";
+import Saudacao from './Components/Moleculas/Saudacao/Saudacao.js';
 
 function App() {
 
@@ -29,9 +30,9 @@ function App() {
       <ThemeProvider theme={theme}>
       <InformationBanner />
     </ThemeProvider>
- {/* Divisor entre o banner e os produtos */}
       <Main />
       <Grid/>
+      <Saudacao/>
       <NewsLetterForm />
       <Footer />
     </>
