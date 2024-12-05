@@ -1,6 +1,6 @@
 const FooterStyles = {
     footer: {
-      backgroundColor: "#8B0000", // Vermelho escuro
+      backgroundColor: "#333333", // Vermelho escuro 
       //background-color: #333;
       color: "#fff",
       padding: "32px 0",
