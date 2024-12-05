@@ -10,6 +10,7 @@ const newsletterFormStyles = {
       width: "100%",
       maxWidth: "96.8%", // Limita largura máxima
       margin: "0 auto", // Centraliza no eixo horizontal
+      marginBottom: "3px",
     },
     title: {
       fontSize: "18px",
@@ -42,14 +43,14 @@ const newsletterFormStyles = {
     },
     link: {
       fontSize: "14px",
-      color: "#00C2C5",
+      color:"#EB5E55",
       textDecoration: "none",
       "&:hover": {
         textDecoration: "underline",
       },
     },
     button: {
-      backgroundColor: "#00C2C5",
+      backgroundColor: "#8B0000",
       color: "#FFFFFF",
       fontWeight: 600,
       textTransform: "uppercase",
@@ -57,12 +58,12 @@ const newsletterFormStyles = {
       padding: "12px",
       borderRadius: "4px",
       "&:hover": {
-        backgroundColor: "#019A9C",
+        backgroundColor: "#EB5E55",
       },
     },
     message: (success) => ({
       marginTop: "16px",
-      color: success ? "#00C2C5" : "#FF0000",
+      color: success ? "#EB5E55" : "#FF0000",
       textAlign: "center",
     }),
   };
